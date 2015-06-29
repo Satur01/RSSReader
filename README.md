@@ -130,6 +130,9 @@ DataContext="{Binding VMMain,
 ```
 Como podrás notar esto no afecta el funcionamiento ya que solo cambiamos la forma en que obtenemos nuestra instancia del **ViewModel**.
 
+#####Buenas prácticas
+Para organizar tus archivos se recomienda generar una carpeta a nivel de proyecto donde coloques todos tus ViewModels, el nombre debe llevar el prefijo **VM** y VMLocator debe estar en una subcarpeta llamada ViewModelBase.
+
 Con esto terminamos la primera parte de la serie de **MVVM**, a partir de este punto ya puedes crear una implementación de **MVVM** con las mejores practicas, debes tener en cuenta que este es el enfoque general de **MVVM** y que existen otros, para muestra puedes ver las implementaciones de los diferentes frameworks de **MVVM**, puedes crear tu propia implementación también, en lo personal procuro no utilizo ningún framework ya que me gusta crear el código y ver los escenarios posibles, pero existen situaciones en las que el volumen de trabajo lo exige, te invito a formarte una opinión de cada uno de los frameworks.
 
 Te dejo el código del ejemplo del lector de feeds [aquí](https://github.com/Satur01/RSSReader) para que puedas revisarlo, espero te resulte de utilidad esta serie de post, espero tus comentarios y opiniones.
