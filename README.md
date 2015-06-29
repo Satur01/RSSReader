@@ -111,7 +111,7 @@ public class VMLocator
     }
 }
 ```
-Después de crear esta clase vamos a agregar un recurso en el archivo App.xaml, empecemos por agregar el espacio de nombres .
+Después de crear esta clase vamos a agregar un recurso en el archivo App.xaml, empecemos por incluir el espacio de nombres.
 ```language-chsarp
 xmlns:vmBase="using:RSSReader.ViewModels.ViewModelBase"
 ```
